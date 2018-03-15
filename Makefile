@@ -1,0 +1,2 @@
+all:
+	g++ main.cpp -o main.exe -DSFML_STATIC -I C:\SFML-2.4.2\include -I C:\Users\Matthew\CLionProjects\Training-Simulator -L C:\SFML-2.4.2\build\lib -lsfml-window-s -lsfml-graphics-s -lsfml-system-s -lopengl32 -lwinmm -lgdi32 -lfreetype -ljpeg

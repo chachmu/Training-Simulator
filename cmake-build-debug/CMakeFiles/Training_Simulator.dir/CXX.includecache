@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Matthew/CLionProjects/Training-Simulator/main.cpp
+iostream
+-
+vector
+-
+SFML/System.hpp
+-
+SFML/Window.hpp
+-
+SFML/Graphics.hpp
+-
+
